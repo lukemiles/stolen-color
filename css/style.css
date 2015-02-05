@@ -1,0 +1,83 @@
+*{
+    margin:0;
+    padding:0;
+}
+div {
+    display: flex;
+}
+.images{
+    background:white;
+    font-family:Georgia;
+    font-size: 34px;
+    font-style: italic;
+    letter-spacing:-1px;
+    width:1500px !important;
+    height: auto;
+    position:absolute !important;
+    top:0px;
+    left:0px;
+    bottom:0px;
+}
+.section{
+    margin:0px;
+    bottom:0px;
+    width:500px;
+    float:left;
+    height:100%;
+    background: black;
+    color: white;
+    position: relative;
+    display: flex;
+    display: -webkit-box;
+     display: -moz-box;
+     display: -ms-flexbox;
+     display: -webkit-flex;
+     display: flex;
+    justify-content: center;
+    -webkit-justify-content: center;
+    align-items: center;
+    -webkit-align-items: center;
+
+}
+.image {
+    width: 400px;
+    height: auto;
+    /* WebKit (Chrome & Safari) */
+     display: -webkit-box;
+     -webkit-box-pack: center;
+     -webkit-box-align: center;
+     
+     /* Firefox */
+     display: -moz-box;
+     -moz-box-pack: center;
+     -moz-box-align: center;
+     
+     /* IE */
+     display: -ms-box;
+     -ms-box-pack: center;
+     -ms-box-align: center;
+     
+      /* Native CSS */
+     display: box;
+     box-pack: center;
+     box-align: center;
+}
+.image img {
+    max-width: 100%;
+    height: auto;
+}
+.white {
+    background: white;
+    color: black;
+}
+.section h2{
+    margin:50px 0px 30px 50px;
+}
+.section p{
+    margin:20px 0px 0px 50px;
+    width:600px;
+}
+.section ul{
+    list-style:none;
+    margin:20px 0px 0px 550px;
+}
