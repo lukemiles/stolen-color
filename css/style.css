@@ -7,11 +7,10 @@ div {
 }
 .images{
     background:white;
-    font-family:Georgia;
-    font-size: 34px;
-    font-style: italic;
-    letter-spacing:-1px;
-    width:1500px !important;
+    font-family:'Helvetica', Arial, sans-serif;
+    letter-spacing: -0.5px;
+    font-size: 18px;
+    width:6200px !important;
     height: auto;
     position:absolute !important;
     top:0px;
@@ -21,7 +20,7 @@ div {
 .section{
     margin:0px;
     bottom:0px;
-    width:500px;
+    width:400px;
     float:left;
     height:100%;
     background: black;
@@ -40,7 +39,7 @@ div {
 
 }
 .image {
-    width: 400px;
+    width: 350px;
     height: auto;
     /* WebKit (Chrome & Safari) */
      display: -webkit-box;
@@ -62,6 +61,13 @@ div {
      box-pack: center;
      box-align: center;
 }
+
+.section-landscape {
+    width:800px;
+}
+.image-landscape {
+    width: 700px;
+}
 .image img {
     max-width: 100%;
     height: auto;
@@ -80,4 +86,24 @@ div {
 .section ul{
     list-style:none;
     margin:20px 0px 0px 550px;
+}
+.s-1 {
+    background-color: #3E3B4E;
+}
+
+.s-2 {
+    background-color: #B8C7A8;
+}
+.s-3 {
+    background-color: #3E3B4E;
+}
+.s-4 {
+    background-color: #B8C7A8;
+}
+.s-5 {
+    background-color: #3E3B4E;
+}
+.small {
+    width: 200px;
+    text-align: center;
 }
